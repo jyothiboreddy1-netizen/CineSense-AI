@@ -78,7 +78,6 @@ CineSense-AI
 ├── api/
 ├── app/
 ├── dashboard/
-│   ├── CineSenseAI.pbix
 │   └── PowerBI_Dashboard.pdf
 │
 ├── data/
