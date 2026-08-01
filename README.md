@@ -10,19 +10,19 @@ CineSense AI recommends movies by analyzing movie metadata, genres, ratings, pop
 
 ---
 
-# 📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-## Page 1 – Project Overview
+### Page 1 – Project Overview
 
-![Overview Dashboard](images/dashboard_overview.png)
+![Overview Dashboard](images/Overview.png)
 
-## Page 2 – Model Evaluation
+### Page 2 – Model Evaluation
 
-![Model Evaluation](images/model_evaluation.png)
+![Model Evaluation](images/Model_evaluation.png)
 
-## Page 3 – Movie Insights
+### Page 3 – Movie Insights
 
-![Movie Insights](images/movie_insights.png)
+![Movie Insights](images/Movie_insights.png)
 
 ---
 
