@@ -1,16 +1,32 @@
 # 🎬 CineSense AI
 
-An AI-powered Movie Recommendation System that combines Content-Based Filtering, Context-Aware Recommendation, Personalized Recommendation, and Interactive Power BI Dashboards to provide intelligent movie recommendations and performance analysis.
+An AI-powered Movie Recommendation System that combines **Content-Based Filtering**, **Context-Aware Recommendation**, **Personalized Recommendation**, and **Interactive Power BI Dashboards** to provide intelligent movie recommendations and recommendation performance analysis.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-CineSense AI recommends movies by analyzing movie metadata, genres, ratings, popularity, and user preferences. The project also evaluates different recommendation models using standard recommendation system metrics and visualizes the results using Power BI.
+CineSense AI recommends movies by analyzing movie metadata, genres, ratings, popularity, and user preferences. The project evaluates multiple recommendation models using standard recommendation system metrics and visualizes the results through interactive Power BI dashboards.
 
 ---
 
-## 🚀 Features
+# 📷 Dashboard Preview
+
+## Page 1 – Project Overview
+
+![Overview Dashboard](images/dashboard_overview.png)
+
+## Page 2 – Model Evaluation
+
+![Model Evaluation](images/model_evaluation.png)
+
+## Page 3 – Movie Insights
+
+![Movie Insights](images/movie_insights.png)
+
+---
+
+# 🚀 Features
 
 - Content-Based Movie Recommendation
 - Context-Aware Recommendation
@@ -18,48 +34,74 @@ CineSense AI recommends movies by analyzing movie metadata, genres, ratings, pop
 - Genre-Based Preference Analysis
 - Recommendation Evaluation Metrics
 - Interactive Power BI Dashboard
-- Data Visualization
+- Movie Analytics and Visualization
 - Model Performance Comparison
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
-### Programming Language
+## Programming Languages
+
 - Python
+- SQL
 
-### Libraries
+## Libraries
+
 - Pandas
 - NumPy
 - Scikit-learn
 - Matplotlib
 - Seaborn
 
-### Visualization
+## Visualization
+
 - Power BI
 
-### Development Environment
+## Development Environment
+
 - Google Colab
 - Jupyter Notebook
 
-### Version Control
+## Version Control
+
 - Git
 - GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
-CineSense.AI
+```text
+CineSense-AI
 │
 ├── api/
 ├── app/
 ├── dashboard/
+│   ├── CineSenseAI.pbix
+│   └── PowerBI_Dashboard.pdf
+│
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── powerbi/
+│   └── README.md
+│
 ├── images/
+│   ├── dashboard_overview.png
+│   ├── model_evaluation.png
+│   └── movie_insights.png
+│
 ├── notebooks/
-├── raw/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_sql_analysis.ipynb
+│   ├── 03_exploratory_data_analysis.ipynb
+│   ├── 04_recommendation_engine.ipynb
+│   ├── 05_tmdb_metadata_enrichment.ipynb
+│   ├── 06_context_aware_recommendation.ipynb
+│   ├── 07_recommendation_evaluation.ipynb
+│   └── 08_visualization_and_analysis.ipynb
+│
 ├── sql/
 ├── src/
 ├── README.md
@@ -69,9 +111,11 @@ CineSense.AI
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset
 
-This project uses movie metadata and ratings datasets containing:
+This project uses the **MovieLens Dataset** along with **TMDB Movie Metadata**.
+
+The datasets include:
 
 - Movie Titles
 - Genres
@@ -84,7 +128,7 @@ This project uses movie metadata and ratings datasets containing:
 
 ---
 
-## 📈 Recommendation Models
+# 📈 Recommendation Models
 
 - Content-Based Recommendation
 - Context-Aware Recommendation
@@ -92,7 +136,7 @@ This project uses movie metadata and ratings datasets containing:
 
 ---
 
-## 📏 Evaluation Metrics
+# 📏 Evaluation Metrics
 
 - Precision@10
 - Recall@10
@@ -101,27 +145,27 @@ This project uses movie metadata and ratings datasets containing:
 
 ---
 
-## 📊 Power BI Dashboard
+# 📊 Power BI Dashboard
 
-The dashboard contains three pages:
+The dashboard provides interactive visualizations for movie analytics, recommendation performance, and evaluation metrics.
 
-### Page 1
-Project Overview
+## Page 1 – Project Overview
+
 - KPI Cards
 - Genre Analysis
 - Rating Distribution
 - Popularity Analysis
 - Runtime Distribution
 
-### Page 2
-Model Evaluation
-- Model Comparison
+## Page 2 – Model Evaluation
+
+- Model Performance Comparison
 - Improvement over Baseline
 - Top-K Evaluation
 - Evaluation Summary
 
-### Page 3
-Movie Insights
+## Page 3 – Movie Insights
+
 - Top Rated Movies
 - Genre Analysis
 - Runtime Analysis
@@ -129,7 +173,29 @@ Movie Insights
 
 ---
 
-## 🎯 Project Outcome
+# ⚙ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jyothiboreddy1-netizen/CineSense-AI.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd CineSense-AI
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 🎯 Project Outcome
 
 This project demonstrates practical skills in:
 
@@ -139,12 +205,30 @@ This project demonstrates practical skills in:
 - Machine Learning
 - Data Visualization
 - Dashboard Design
-- Model Evaluation
+- Recommendation Evaluation
 
 ---
 
-## 👩‍💻 Author
+# 🔮 Future Enhancements
 
-Jyothi
+- Hybrid Recommendation System
+- Deep Learning-based Recommendation
+- Real-time User Personalization
+- Streamlit Web Application
+- Cloud Deployment
+- User Authentication
+- API Integration
+
+---
+
+# 👩‍💻 Author
+
+**Jyothi Boreddy**
 
 B.Tech Computer Science Engineering (Data Science)
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
