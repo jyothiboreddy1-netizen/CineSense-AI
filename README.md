@@ -24,6 +24,8 @@ CineSense AI recommends movies by analyzing movie metadata, genres, ratings, pop
 
 ![Movie Insights](images/Movie_insights.png)
 
+The project includes an interactive Power BI dashboard with three pages that provide insights into movie analytics, recommendation performance, and model evaluation.
+
 ---
 
 # 🚀 Features
