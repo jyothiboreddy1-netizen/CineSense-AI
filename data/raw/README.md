@@ -1,1 +1,8 @@
-This folder contains all the raw files
+# Raw Data
+
+This folder contains the original datasets collected before preprocessing.
+
+- movies.csv
+- ratings.csv
+- tags.csv
+- links.csv
