@@ -174,25 +174,13 @@ The dashboard provides interactive visualizations for movie analytics, recommend
 
 ---
 
-# ⚙ Installation
+## 🚀 How to Explore the Project
 
-Clone the repository:
-
-```bash
-git clone https://github.com/jyothiboreddy1-netizen/CineSense-AI.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd CineSense-AI
-```
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
+1. Read the README to understand the project.
+2. Open the notebooks in the `notebooks/` folder using Google Colab or Jupyter Notebook.
+3. Explore the datasets inside the `data/` folder.
+4. Open the Power BI dashboard (`dashboard/PowerBi_dashboard.pbix`) using Microsoft Power BI Desktop.
+5. Review the dashboard preview images in the `images/` folder.
 
 ---
 
